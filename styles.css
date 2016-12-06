@@ -1,0 +1,189 @@
+.wrapper{
+	height: 100%;
+}
+
+.header{
+	margin: 10px 10px 0 0;
+	height: 10%;
+	float: right;
+
+}
+
+.header > div{
+	position: relative;
+	float: left;
+	display: inline-block;
+	font-family: Arial;
+	font-size: 0.8em;
+	color: grey;
+	padding: 5px;
+	margin: 5px;
+}
+
+.header:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+#apps{
+	display: inline-block;
+	height: 20px;
+}
+ul{
+	float: right;
+	position: relative;
+	text-decoration: none;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+div > a:visited, li > a:visited{
+	color: grey;
+	text-decoration: none;
+}
+
+ul li{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 5px 0 5px; 
+}
+
+.sign-in{
+	font-weight: bold;
+	color: white;
+	background: #3884ff;
+	border-radius: 4px;
+	height: 20px; 
+	width: 60px;
+	text-align: center;
+}
+
+#sign-in-button{
+	color: white;
+}
+
+.content{
+	clear: both;
+}
+
+#logo{
+	display: block;
+	width: 21%;
+	position: relative;
+	margin: 0 auto;
+	top: 135px;
+}
+
+.search{
+	width: 600px;
+	height: 40px;
+	margin: 0 auto;
+	border: 0.5px solid grey;
+	position: relative;
+	top: 170px;
+
+}
+
+input{
+	display: block;
+	margin: 0 auto;
+	border: none;
+	width: 550px;
+	height: 30px;
+	padding: 2.5px 0 2.5px 0;
+	font: 1em black sans-serif;
+}
+
+input:focus{
+	outline: none;
+}
+
+button{
+	font-weight: bold;
+	color: grey;
+	font-size: 0.8em;
+	border: none;
+	background: #eff1f4;
+}
+
+.buttons{
+	position: relative;
+	top: 200px;
+}
+
+#left{
+	float: left;
+	position: relative;
+	left: 38.5%;
+	height: 35px;
+	width: 130px;
+	margin-right: 5px;
+	border-radius: 2px; 
+}
+
+#right{
+	float: right;
+	position: relative;
+	right: 38.5%;
+	height: 35px;
+	width: 150px;
+	margin-left: 5px;
+	border-radius: 2px;
+}
+
+.lang{
+	position: relative;
+	top: 235px;
+    width: 60%;
+    margin: 0 auto;
+    left: 80px;
+}	
+
+.translate{
+	display: inline-block;
+    font: 0.8em Arial; 
+    padding: 5px;
+}
+
+.translate > ul{
+    color: 
+}
+
+.footer{
+    position: absolute;
+    margin:  0 auto;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    background-color: #eff0f2;
+    box-shadow:  0px -1px #dbdde0;
+}
+
+.list-right{
+    float: right;
+    position:  relative;
+    top: 10px;
+    right: 5px;
+}
+
+.list-left{
+    float: left;
+    position: relative;
+    top: 10px;
+    left:-20px;
+}
+
+li{
+    font: 0.8em Arial ;
+    color: #d7dae0;
+    margin: 0 10px 0 0;
+}
